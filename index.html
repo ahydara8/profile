@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Personal portfolio for sharing projects, experience, and ways to get in touch."
+    />
+    <title>Balagie Hydara | Projects & Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Back to top">BH</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#about">Profile</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" id="about">
+        <div class="hero-copy">
+          <p class="eyebrow">Computer Engineering | Projects | Portfolio</p>
+          <!-- it start here -->
+
+          <h1>Balagie Hydara</h1>
+          <p class="lead">
+            I am a Computer Engineering graduate with a passion for building hands-on projects.
+            This site shows my work in engineering, software, and technology, including academic projects, personal projects, and technical demonstrations.
+          </p>
+          <div class="career-goal">
+            <h3>Career Goal:</h3>
+            <p>
+              To build a successful career as a Full-Stack Web Developer, creating modern,
+              scalable, user-friendly, and efficient web applications.
+            </p>
+          </div>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="#resume">View Resume</a>
+          </div>
+        </div>
+        <div class="profile-side">
+          <h2 class="profile-card-title">About Me</h2>
+          <aside class="profile-panel" aria-label="Profile summary">
+          <img class="profile-photo" src="profile pic.jpg" alt="Portrait of Balagie Hydara" />
+          <dl>
+            <div>
+              <dt>Education</dt>
+              <dd>B.Tech in Computer Engineering, City Tech (NYC CUNY)</dd>
+            </div>
+            <div>
+              <dt>Focus</dt>
+              <dd>
+                <ul class="detail-list">
+                  <li>Embedded Systems</li>
+                  <li>Robotics</li>
+                  <li>FPGA Design</li>
+                  <li>Networking</li>
+                  <li>Software Development</li>
+                  <li>AI &amp; Computer Vision</li>
+                </ul>
+              </dd>
+            </div>
+            <div>
+              <dt>Location</dt>
+              <dd>NYC, NY</dd>
+            </div>
+          </dl>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Selected work</p>
+          <h2>Projects</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <img class="project-media project-cover" src="uno main.jpeg" alt="Arduino Bluetooth Car" />
+            <div class="project-content">
+              <p class="project-type">Robotics</p>
+              <h3><a href="arduino-bluetooth-car.html">Arduino Bluetooth Car</a></h3>
+              <p>
+                A Bluetooth-controlled Arduino car project combining embedded programming,
+                electronics, motor control, and mobile control.
+              </p>
+              <div class="tags">
+                <span>Arduino</span>
+                <span>Bluetooth</span>
+                <span>Robotics</span>
+              </div>
+              <div class="project-links">
+                <a href="Arduino Bluetooth.pdf" download>PDF Report</a>
+                <a href="Arduino_Bluetooth_source_code.ino" download>Source Code</a>
+                <a href="arduino-bluetooth-car.html#video">Video</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img
+              class="project-media project-cover"
+              src="FPGA P1.jpeg"
+              alt="FPGA Counter and LED Display System"
+            />
+            <div class="project-content">
+              <p class="project-type">Digital Logic | verilog</p>
+              <h3><a href="FPGA Counter and LED Display System.html">FPGA Counter and LED Display System</a></h3>
+              <p>
+                FPGA-based counter system featuring LED and 7-segment display control using Verilog and digital logic design.
+              </p>
+              <div class="tags">
+                <span>FPGA</span>
+                <span>Counter</span>
+                <span>LED Display</span>
+              </div>
+              <div class="project-links">
+                <a href="FPGA Counter and LED Display System.pdf" download>PDF Report</a>
+                <a href="FPGA_source_code.v" download>Source Code</a>
+                <a href="FPGA Counter and LED Display System.html#video">Video</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img
+              class="project-media project-cover"
+              src="Object Detection Uno main.jpeg"
+              alt="Object Detection Using Arduino"
+            />
+            <div class="project-content">
+              <p class="project-type">AI &amp; Computer Vision</p>
+              <h3><a href="Object Detection Using Arduino.html">Object Detection Using Arduino</a></h3>
+              <p>
+                
+                Smart object detection system using an ultrasonic sensor, LCD display, and LED status indicators.
+                
+              </p>
+              <div class="tags">
+                <span>Arduino</span>
+                <span>Object Detection</span>
+                <span>Automation</span>
+              </div>
+              <div class="project-links">
+                <a href="Object Detection Uno.pdf" download>PDF Report</a>
+                <a href="object_detection_source_code.ino" download>Source Code</a>
+                <a href="Object Detection Using Arduino.html#video">Video</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img
+              class="project-media project-cover"
+              src="FSM MAIN.jpeg"
+              alt="Making A Traffic Light With Arduino FSM"
+            />
+            <div class="project-content">
+              <p class="project-type">Embedded Systems</p>
+              <h3><a href="Making A Traffic Light With Arduino (FSM).html">Making A Traffic Light With Arduino (FSM)</a></h3>
+              <p>
+                A finite state machine traffic light project using Arduino to demonstrate state transitions and embedded system design.
+              </p>
+              <div class="tags">
+                <span>Arduino</span>
+                <span>FSM</span>
+                <span>Traffic Light</span>
+              </div>
+              <div class="project-links">
+                <a href="FSM-Making A Traffic Light With Arduino.pdf" download>PDF Report</a>
+                <a href="FSM_source_code.ino" download>Source Code</a>
+                <a href="Making A Traffic Light With Arduino (FSM).html#video">Video</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img
+              class="project-media project-cover"
+              src="pi main.jpeg"
+              alt="Object Detection Using Raspberry Pi"
+            />
+            <div class="project-content">
+              <p class="project-type">Single Board Computing</p>
+              <h3><a href="Raspberry Pi Object Detection.html">Object Detection Using Raspberry Pi</a></h3>
+              <p>
+                Raspberry Pi obstacle detection system with ultrasonic sensing, LCD feedback, 
+                LED indicators, and push-button control.
+              </p>
+              <div class="tags">
+                <span>Raspberry Pi</span>
+                <span>Sensors</span>
+                <span>LCD</span>
+              </div>
+              <div class="project-links">
+                <a href="Raspberry Pi Object Detection.html#files">PDF Report</a>
+                <a href="Raspberry Pi Object Detection.py" download>Source Code</a>
+                <a href="Raspberry Pi Object Detection.html#video">Video</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img
+              class="project-media project-cover"
+              src="network main.png"
+              alt="Networking creating virtual LANs"
+            />
+            <div class="project-content">
+              <p class="project-type">Networking</p>
+              <h3><a href="networking-CREATING VIRTUAL LANS.html">Networking: CREATING VIRTUAL LANS</a></h3>
+              <p>
+                A networking project focused on VLAN setup, traffic segmentation, and switch configuration.
+              </p>
+              <div class="tags">
+                <span>VLAN</span>
+                <span>Trunking</span>
+                <span>Switching</span>
+              </div>
+              <div class="project-links">
+                <a href="NETWORKING CREATING VIRTUAL LANS.pdf" download>PDF Report</a>
+                <a href="networking-CREATING VIRTUAL LANS.html">Details</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section resume" id="resume">
+        <div class="section-heading">
+          <p class="eyebrow">Resume</p>
+          <h2>Skills &amp; Experience</h2>
+        </div>
+        <div class="resume-layout">
+          <article class="experience-card" id="experience">
+            <h3>Experience</h3>
+            <div class="experience-role">
+              <div class="experience-header">
+                <h4>NYC Human Resources Administration</h4>
+                <p>March 2023 - March 2024</p>
+              </div>
+              <p class="role-title">Software Engineering Intern</p>
+              <ul>
+                <li>Built and deployed a full-stack web application using React, Node.js, and MongoDB.</li>
+                <li>Designed RESTful APIs to handle user authentication and data storage.</li>
+                <li>Implemented CRUD operations and improved performance by optimizing database queries.</li>
+                <li>Used Git for version control and collaborated using GitHub.</li>
+                <li>Deployed application on AWS.</li>
+              </ul>
+            </div>
+            <div class="experience-role">
+              <div class="experience-header">
+                <h4>NYC Department of Social Services</h4>
+                <p>May 2024 - February 2026</p>
+              </div>
+              <p class="role-title">IT Specialist Intern</p>
+              <ul>
+                <li>Assisted the Help Desk Team to deliver technology support.</li>
+                <li>Assisted users with software and hardware troubleshooting.</li>
+                <li>Assisted with the deployment of new equipment.</li>
+                <li>Managed ticketing systems and maintained detailed logs.</li>
+                <li>Installed, configured, and maintained IT systems.</li>
+                <li>Conducted system updates and ensured network security.</li>
+                <li>Troubleshot and resolved technical issues related to computers, printers, and other office equipment.</li>
+              </ul>
+            </div>
+          </article>
+          <div class="resume-side">
+            <article>
+              <h3>Certifications</h3>
+              <div class="certificate-links">
+                <a href="AI Fundamentals certificate.pdf" download>AI Fundamentals Certificate</a>
+                <a href="Machine Learning certificate.pdf" download>Machine Learning Certificate</a>
+                <a href="Reinforcement Learning certificate.pdf" download>Reinforcement Learning Certificate</a>
+              </div>
+            </article>
+            <article>
+              <h3>Download CV</h3>
+              <a class="button primary" href="Resume.pdf" download>Download Resume</a>
+            </article>
+          </div>
+          <article class="skills-card">
+            <h3>Skills</h3>
+            <div class="skills-list">
+              <div>
+                <h4>Languages</h4>
+                <p>HTML, Python, JavaScript, C++, MATLAB, SQL</p>
+              </div>
+              <div>
+                <h4>Frameworks</h4>
+                <p>React, Angular, Vue, Node.js, Express</p>
+              </div>
+              <div>
+                <h4>Databases</h4>
+                <p>MongoDB, MySQL</p>
+              </div>
+              <div>
+                <h4>Tools</h4>
+                <p>Git, GitHub, Linux, Quartus</p>
+              </div>
+              <div>
+                <h4>FPGA &amp; Digital Design</h4>
+                <p>VHDL, Verilog, counters, decoders, multiplexers, control subsystems</p>
+              </div>
+              <div>
+                <h4>Networking</h4>
+                <p>VLANs, inter-VLAN routing, NAT, DHCP, ACLs, Cisco routers/switches</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="section-heading contact-heading">
+          <p class="eyebrow">Get In Touch</p>
+          <h2>Contact</h2>
+        </div>
+        <div class="contact-intro">
+          <h3>Let's Build Something</h3>
+          <p>
+            Feel free to connect with me, view my projects, explore my work, 
+            or reach out regarding opportunities and collaborations.
+          </p>
+        </div>
+        <form class="contact-form" action="https://formspree.io/f/xlgkdolp" method="POST">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="Email Address" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" placeholder="Message" required></textarea>
+          </label>
+          <input type="hidden" name="_subject" value="New portfolio message from Balagie Hydara website" />
+          <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-links">
+          <a href="mailto:alhagiehydara8@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/balagie-hydara">LinkedIn</a>
+          <a href="https://github.com/ahydara8">GitHub</a>
+          <a href="https://projecthub.arduino.cc/ahydara8">Uno Project Hub</a>
+          <a href="https://www.youtube.com/@bhydara">YouTube</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Balagie Hydara. Built with care.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

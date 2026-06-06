@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FPGA Counter and LED Display System | Balagie Hydara</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html#top" aria-label="Back to home">BH</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html#about">Profile</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#resume">Resume</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="project-page">
+      <a class="back-link" href="index.html#projects">Back to Projects</a>
+      <section class="project-hero">
+        <p class="eyebrow">Digital Logic | verilog</p>
+        <h1>FPGA Counter and LED Display System</h1>
+        <p class="lead">FPGA-based counter system featuring LED and 7-segment display control using Verilog and digital logic design.</p>
+      </section>
+
+      <section class="project-story">
+        <article class="detail-panel project-section">
+          <h2>Description</h2>
+          <p>
+            This project documents the design and implementation of a frequency divider with a 4-bit bidirectional counter 
+            and decoder on the Intel DE0-CV FPGA board. The project integrates three key components:
+          </p>
+            
+          <ul>
+            <li>A 25-bit frequency divider (LPM counter) to slow the 50MHz clock to ~1.5Hz.</li>
+            <li>A 4-bit up/down counter with enable/clear controls.</li>
+            <li>A hex-to-7-segment decoder and 4-bit GPIO LED pattern generator.</li>
+          </ul>
+
+            <p>
+
+            The system demonstrates counters, decoders, and FPGA I/O interfacing (onboard LEDs, 7-segment display, and breadboard LEDs).
+            All functionalities were verified through simulation and hardware testing.
+            
+          </p>
+        </article>
+        <article class="detail-panel project-section">
+          <h2>Pictures</h2>
+          <div class="project-gallery">
+            <figure><img src="FPGA P3.jpeg" alt="FPGA counter project image three" /><figcaption>FPGA counter and LED display setup.</figcaption></figure>
+            <figure><img src="FPGA P1.jpeg" alt="FPGA counter project image one" /><figcaption>Hardware view during testing and demonstration.</figcaption></figure>
+            <figure><img src="FPGA P2.jpeg" alt="FPGA counter project image two" /><figcaption>Completed FPGA project output view.</figcaption></figure>
+            
+          </div>
+        </article>
+        <article class="detail-panel project-section" id="video">
+          <h2>Video Demo</h2>
+          <div class="video-embed"><iframe src="https://www.youtube.com/embed/kl3LWZEJOgg" title="FPGA Counter and LED Display System video demo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        </article>
+        <article class="detail-panel project-section" id="files">
+          <h2>PDF Report &amp; Source Code</h2>
+          <div class="project-links">
+            <a href="FPGA Counter and LED Display System.pdf" download>Download PDF Report</a>
+            <a href="FPGA_source_code.v" download>Download Source Code</a>
+            <a href="https://projecthub.arduino.cc/ahydara8">See Full Report</a>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
