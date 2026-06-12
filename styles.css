@@ -597,17 +597,27 @@ dd {
   gap: 12px;
 }
 
-.certificate-links a {
+.certificate-item {
   padding: 12px 14px;
   background: #ffffff;
   border: 1px solid #b8d9ff;
   border-radius: 6px;
+}
+
+.certificate-item a {
   color: var(--accent-dark);
   font-weight: 800;
 }
 
-.certificate-links a:hover {
+.certificate-item:hover {
   background: #dceeff;
+}
+
+.certificate-item p {
+  margin: 6px 0 0;
+  color: #33342f;
+  font-size: 0.92rem;
+  line-height: 1.45;
 }
 
 .contact {
